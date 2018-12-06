@@ -1,0 +1,161 @@
+/* Terminal */
+
+body {
+  background-color: #000;
+  color: #c4c4c4;
+}
+
+pre {
+  font-family: "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 4px;
+}
+
+/* Characters */
+
+span.sgr-1 {
+  /* Bold Characters */
+  font-weight: bold;
+}
+
+span.sgr-4 {
+  /* Underlined Characters */
+  text-decoration: underline;
+}
+
+span.sgr-5 {
+  /* Blinking Characters */
+  text-decoration: blink;
+}
+
+span.sgr-7 {
+  /* Reverse video Characters */
+  /* Not yet implemented */
+}
+
+/* Foreground colors */
+
+span.sgr-30 {
+  /* Black */
+  color: #000;
+}
+
+span.sgr-31 {
+  /* Red */
+  color: #ea1010;
+}
+
+span.sgr-32 {
+  /* Green */
+  color: #090;
+}
+
+span.sgr-33 {
+  /* Yellow */
+  color: #990;
+}
+
+span.sgr-34 {
+  /* Blue */
+  color: #0073e6;
+}
+
+span.sgr-35 {
+  /* Magenta */
+  color: #d411d4;
+}
+
+span.sgr-36 {
+  /* Cyan */
+  color: #099;
+}
+
+span.sgr-37 {
+  /* White */
+  color: #ccc;
+}
+
+/* Bright foreground colors (= with bold) */
+
+span.sgr-30.sgr-1 {
+  /* Black */
+  color: #373b41
+}
+
+span.sgr-31.sgr-1 {
+  /* Red */
+  color: #ff6161
+}
+
+span.sgr-32.sgr-1 {
+  /* Green */
+  color: #00d600;
+}
+
+span.sgr-33.sgr-1 {
+  /* Yellow */
+  color: #bdbd00
+}
+
+span.sgr-34.sgr-1 {
+  /* Blue */
+  color: #5797ff
+}
+
+span.sgr-35.sgr-1 {
+  /* Magenta */
+  color: #d96dd9
+}
+
+span.sgr-36.sgr-1 {
+  /* Cyan */
+  color: #00bdbd
+}
+
+span.sgr-37.sgr-1 {
+  /* White */
+  color: #fff
+}
+
+/* Background colors */
+
+span.sgr-40 {
+  /* Black */
+  background-color: #000;
+}
+
+span.sgr-41 {
+  /* Red (Orange) */
+  background-color: #ea1010;
+}
+
+span.sgr-42 {
+  /* Green */
+  background-color: #090;
+}
+
+span.sgr-43 {
+  /* Yellow */
+  background-color: #990;
+}
+
+span.sgr-44 {
+  /* Blue */
+  background-color: #0073e6;
+}
+
+span.sgr-45 {
+  /* Magenta */
+  background-color: #d411d4;
+}
+
+span.sgr-46 {
+  /* Cyan */
+  background-color: #099;
+}
+
+span.sgr-47 {
+  /* White */
+  background-color: #ccc;
+}

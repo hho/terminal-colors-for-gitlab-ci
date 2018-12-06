@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Terminal Colors for GitLab CI",
+  "version": "1.0.0",
+  "description": "Provides terminal colors for GitLab CI raw build logs",
+  "icons": {
+    "32": "img/icon32.png",
+    "64": "img/icon64.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [{
+    "matches": [
+      "*://*/*/jobs/*/raw"
+    ],
+    "run_at": "document_idle",
+    "css": ["css/terminal-colors.css"],
+    "js": ["js/terminal-colors.js"]
+  }]
+}
